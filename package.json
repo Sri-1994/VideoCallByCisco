@@ -1,17 +1,17 @@
 {
-  "name": "CareYourEye",
+  "name": "videoassit",
   "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "android": "react-native run-android",
-  },
+  "description": "",
+  "main": "index.js",
   "dependencies": {
-    "react": "16.11.0",
+    "axios": "^0.19.2",
+    "http-server": "^0.12.3",
+    "jsonwebtoken": "^8.5.1"
   },
-  "devDependencies": {
-    "@babel/core": "7.10.2",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "jest": {
-    "preset": "react-native"
-  }
+  "author": "",
+  "license": "ISC"
 }
